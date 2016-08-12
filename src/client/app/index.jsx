@@ -8,8 +8,5 @@ class App extends React.Component {
         <p> Hello Saille! - My first react setup</p>
         <h3>Testing</h3>
       </div>
-    )
-  }
-}
 
-render(<App/>, document.getElementById('app'));
+render(<App />, document.getElementById('app'));
