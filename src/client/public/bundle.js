@@ -80,9 +80,18 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'h1',
+	        'div',
 	        null,
-	        'Hello Saille!'
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          ' Hello Saille! - My first react setup'
+	        ),
+	        _react2.default.createElement(
+	          'h3',
+	          null,
+	          'Testing'
+	        )
 	      );
 	    }
 	  }]);
