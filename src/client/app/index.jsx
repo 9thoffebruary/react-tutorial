@@ -9,4 +9,4 @@ class App extends React.Component {
         <h3>Testing</h3>
       </div>
 
-render(<App />, document.getElementById('app'));
+render(<App />, document.getElementById('app'))
